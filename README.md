@@ -1,6 +1,10 @@
 ## Client folder paste the Server Folder
 
-And run the command
+1st run the command both folder
+
+## `npm install`
+
+then
 
 ## `npm ren dev`
 
