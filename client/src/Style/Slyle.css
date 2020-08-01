@@ -1,0 +1,96 @@
+body {
+  background-color: #eee;
+}
+.homePadding {
+  padding: 40px 0px;
+}
+
+.HangBurger {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 20px;
+  }
+}
+
+.ProductBlock {
+  position: relative;
+  border: 2px solid #ddd;
+  margin-bottom: 30px;
+  padding: 50px;
+}
+
+.ProductBlock:hover .HoverBlock {
+  display: block;
+}
+
+.HoverBlock {
+  position: absolute;
+  bottom: 0%;
+  display: none;
+  padding: 15px 0 15px 30px;
+  left: 0%;
+  width: 100%;
+}
+
+.ProductLink {
+  text-decoration: none;
+  color: #000;
+}
+.ProductLink p {
+  color: #000;
+  margin-bottom: 1px;
+}
+
+.ProductDetails {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.details {
+  font-size: 20px;
+}
+
+.ProductButtons {
+  margin-top: 30px;
+}
